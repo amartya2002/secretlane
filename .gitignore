@@ -31,5 +31,6 @@ go.work.sum
 .idea/
 .vscode/
 
-# Specific files
+# Project Specific
 README.local.md
+sqlite-secretlane*.db

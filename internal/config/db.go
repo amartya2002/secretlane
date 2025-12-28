@@ -57,7 +57,7 @@ func InitDatabase() {
 
 func initSQLite() (*sql.DB, error) {
 	// Local file-based SQLite: DB-less mode.
-	dsn := "./secretlane.db"
+	dsn := "./sqlite-secretlane.db"
 	return sql.Open("sqlite3", dsn)
 }
 
