@@ -1,0 +1,15 @@
+app:
+  port: 8009
+  enable_frontend: true
+  seed_default_user: true # Whether to create a default admin user during migrations.
+
+database:
+  driver: sqlite # "sqlite" (default) or "postgres"
+
+postgres:
+  host: localhost
+  port: 5432
+  user: postgres
+  password: ""
+  dbname: secretlane
+  sslmode: disable
